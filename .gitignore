@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Build output
+dist/
+.next/
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+coverage/
+*.lcov
+
+# npm package tarball
+*.tgz
+
+# Next.js cache
+.next/cache/
+
+# Miscellaneous
+*.bak
+*.swp
+*~

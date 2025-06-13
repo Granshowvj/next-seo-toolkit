@@ -1,0 +1,46 @@
+{
+    "name": "next-seo-toolkit",
+    "version": "1.0.0",
+    "description": "A comprehensive SEO package for Next.js including meta tags, social cards, schemas, and analytics",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "nextjs",
+        "seo",
+        "meta-tags",
+        "open-graph",
+        "twitter-cards",
+        "schema",
+        "google-analytics",
+        "sitemap"
+    ],
+    "author": "Granshow granshowvj@gmail.com",
+    "license": "MIT",
+    "peerDependencies": {
+        "next": "^12.0.0 || ^13.0.0 || ^14.0.0",
+        "react": "^17.0.0 || ^18.0.0",
+        "react-dom": "^17.0.0 || ^18.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.1",
+        "@types/react": "^19.1.8",
+        "@types/react-dom": "^19.1.6",
+        "typescript": "^5.8.3"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Granshowvj/next-seo-toolkit/"
+    },
+    "bugs": {
+        "url": "https://github.com/Granshowvj/next-seo-toolkit/issues"
+    },
+    "homepage": "https://github.com/Granshowvj/next-seo-toolkit#readme"
+}
